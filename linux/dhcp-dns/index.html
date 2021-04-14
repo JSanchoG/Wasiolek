@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="https://2tihub.xyz/icons/ubuntu.ico">
+
+  <title>Szkielet strony</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://2tihub.xyz/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://2tihub.xyz/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="https://2tihub.xyz/css/2tihub.min.css" rel="stylesheet">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+  <style>
+	html {
+		scroll-behavior: smooth;
+	}
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+	.desc {
+		padding: 15px;
+		text-align: center;
+	}
+	.zdjecie {
+		display: inline-block;
+		margin: 0 0.5rem;
+		/*  animation: backInLeft; */
+		animation-duration: 1.3s; /* don't forget to set a duration! */
+	}
+	.animacja {
+		display: inline-block;
+		margin: 0 0.5rem;
+		animation-duration: 1.3s; /* don't forget to set a duration! */
+		--animate-delay: 2s;
+	}
+	.banner {
+		height: 192px;
+		width: 256px;
+		text-align: center;
+	}
+	.banner img {
+		text-align: center;
+		height: 192px;
+		width: 256px;
+		-webkit-transition: .30s;
+		   -moz-transition: .30s;
+		    -ms-transition: .30s;
+		     -o-transition: .30s;
+		        transition: .30s;
+	}
+	.banner:hover {
+		height: 768px;
+	}
+	.banner:hover img {
+		height: 192px;
+		width: 256px;
+	}
+	.banner img:hover {
+		height: 768px;
+		width: 1024px;
+	}
+</style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand animate__animated animate__fadeInDownBig" href="#id1">Instalacja 1 usługi</a>
+      <a class="navbar-brand animate__animated animate__fadeInDownBig" href="#id2">Konfiguracja 1 usługi</a>
+      <a class="navbar-brand animate__animated animate__fadeInDownBig" href="#id3">Instalacja 2 usługi</a>
+      <a class="navbar-brand animate__animated animate__fadeInDownBig" href="#id4">Konfiguracja 2 usługi</a>
+    </div>
+  </nav>
+
+  <!-- za ten link możesz wstawić link dowolnego zdjęcia, albo wyjebać całą sekcję <header> -->
+  <header class="masthead animate__animated animate__fadeIn" style="background-image: url('https://cdn.pixabay.com/photo/2015/07/31/20/49/background-869603__340.png')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1 class="animacja animate__animated animate__zoomIn" style="margin-bottom:25px">Linux - Tytuł pracy</h1>
+            <span class="meta animacja animate__animated animate__fadeInUpBig">Piotr Wasiołek - 1 Styczeń, 2021</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container animate__animated animate__bounceInLeft">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+
+          <!-- id zamień na nazwe usługi czy co tam chcesz (bez spacji), potem w linijce 94 przepisz to id i za numer (1,2,3,4) wstaw jakiś tekst -->
+          <h2 class="section-heading" id="id" style="padding-top:70px;text-align:center">Tytuł</h2>
+          <!-- Jeśli chcesz opisać 2 usługi, albo po prostu mieć odstęp, to robisz tak: -->
+          <blockquote>Opis usługi czy coś</blockquote>
+          <blockquote style="margin-bottom:30px">Drugi opis</blockquote>
+          <!-- Ale jeśli robisz tylko 1 opis, to zostawiasz tylko to: <blockquote style="margin-bottom:30px">Drugi opis</blockquote>-->
+          <hr>
+          <!-- Za id wpisujesz id jakie chcesz, tylko bez spacji, potem w linijce 94 przepisz to id i za numer (1,2,3,4) wstaw jakiś tekst -->
+          <h3 class="section-heading" id="id1" style="padding-top:40px;padding-bottom:40px;text-align:center;margin-top:8px">Instalacja 1 usługi</h3>
+          <!-- <hr> - ta szara kreska -->
+          <hr>
+          <p>Tekst</p>
+          <!-- Zdjęcie -->
+          <div class="banner">
+            <img src="files/folder/zdjecie-test.png" width="256" height="192" alt=""/>
+          </div>
+          <hr>
+          <!-- id zamień na nazwe usługi czy co tam chcesz (bez spacji), potem w linijce 94 przepisz to id i za numer (1,2,3,4) wstaw jakiś tekst -->
+          <h3 class="section-heading" id="id2" style="padding-top:40px;padding-bottom:40px;text-align:center;margin-top:8px">Konfiguracja 1 usługi</h3>
+          <hr>
+          <p>Tekst, <kbd>w kbd możesz dać polecenie cmd, albo jakąś lokalizację pliku</kbd></p>
+          <div class="banner">
+            <img src="files/folder/zdjecie-test.png" width="256" height="192" alt=""/>
+          </div>
+          <div class="banner">
+            <img src="files/folder/zdjecie-test.png" width="256" height="192" alt=""/>
+          </div>
+          <hr>
+          <p>Tekst, <kbd>znowu kbd</kbd></p>
+          <div class="banner">
+            <img src="files/folder/zdjecie-test.png" width="256" height="192" alt=""/>
+          </div>
+          <p>Tekst, <b>tekst w b jest pogrubiony</b></p>
+          <hr>
+          <p>Tekst</p>
+          <div class="banner">
+            <img src="files/folder/zdjecie-test.png" width="256" height="192" alt=""/>
+          </div>
+
+          <hr>
+          <!-- Za id wpisujesz id jakie chcesz, tylko bez spacji, potem w linijce 94 przepisz to id i za numer (1,2,3,4) wstaw jakiś tekst -->
+          <h3 class="section-heading" id="id3" style="padding-top:40px;padding-bottom:40px;text-align:center;margin-top:8px">Instalacja 2 usługi</h3>
+          <!-- <hr> - ta szara kreska -->
+          <hr>
+          <p>Tekst</p>
+          <!-- Zdjęcie -->
+          <div class="banner">
+            <img src="files/folder/zdjecie-test.png" width="256" height="192" alt=""/>
+          </div>
+          <hr>
+          <!-- id zamień na nazwe usługi czy co tam chcesz (bez spacji), potem w linijce 94 przepisz to id i za numer (1,2,3,4) wstaw jakiś tekst -->
+          <h3 class="section-heading" id="id4" style="padding-top:40px;padding-bottom:40px;text-align:center;margin-top:8px">Konfiguracja 2 usługi</h3>
+          <hr>
+          <p>Tekst, <kbd>w kbd możesz dać polecenie cmd, albo jakąś lokalizację pliku</kbd></p>
+          <div class="banner">
+            <img src="files/folder/zdjecie-test.png" width="256" height="192" alt=""/>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </article>
+  <!-- Footer -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://2tihub.xyz/vendor/jquery/jquery.min.js"></script>
+  <script src="https://2tihub.xyz/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="https://2tihub.xyz/js/2tihub.min.js"></script>
+
+</body></html>
