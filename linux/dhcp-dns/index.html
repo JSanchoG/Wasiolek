@@ -91,22 +91,20 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand animate__animated animate__fadeInDownBig" href="#id1">Instalacja 1 usługi</a>
+      <a class="navbar-brand animate__animated animate__fadeInDownBig" href="#dhcp">DHCP</a>
       <a class="navbar-brand animate__animated animate__fadeInDownBig" href="#id2">Konfiguracja 1 usługi</a>
-      <a class="navbar-brand animate__animated animate__fadeInDownBig" href="#id3">Instalacja 2 usługi</a>
-      <a class="navbar-brand animate__animated animate__fadeInDownBig" href="#id4">Konfiguracja 2 usługi</a>
     </div>
   </nav>
 
   <!-- za ten link możesz wstawić link dowolnego zdjęcia, albo wyjebać całą sekcję <header> -->
-  <header class="masthead animate__animated animate__fadeIn" style="background-image: url('https://cdn.pixabay.com/photo/2015/07/31/20/49/background-869603__340.png')">
+  <header class="masthead animate__animated animate__fadeIn" style="background-image: url('https://wasiolek.2tihub.xyz/linux/background.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1 class="animacja animate__animated animate__zoomIn" style="margin-bottom:25px">Linux - Tytuł pracy</h1>
-            <span class="meta animacja animate__animated animate__fadeInUpBig">Piotr Wasiołek - 1 Styczeń, 2021</span>
+            <h1 class="animacja animate__animated animate__zoomIn" style="margin-bottom:25px">Linux - DHCP i DNS</h1>
+            <span class="meta animacja animate__animated animate__fadeInUpBig">Piotr Wasiołek - 4 Kwiecień, 2021</span>
           </div>
         </div>
       </div>
@@ -119,63 +117,53 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
 
-          <!-- id zamień na nazwe usługi czy co tam chcesz (bez spacji), potem w linijce 94 przepisz to id i za numer (1,2,3,4) wstaw jakiś tekst -->
-          <h2 class="section-heading" id="id" style="padding-top:70px;text-align:center">Tytuł</h2>
-          <!-- Jeśli chcesz opisać 2 usługi, albo po prostu mieć odstęp, to robisz tak: -->
-          <blockquote>Opis usługi czy coś</blockquote>
-          <blockquote style="margin-bottom:30px">Drugi opis</blockquote>
-          <!-- Ale jeśli robisz tylko 1 opis, to zostawiasz tylko to: <blockquote style="margin-bottom:30px">Drugi opis</blockquote>-->
-          <hr>
-          <!-- Za id wpisujesz id jakie chcesz, tylko bez spacji, potem w linijce 94 przepisz to id i za numer (1,2,3,4) wstaw jakiś tekst -->
-          <h3 class="section-heading" id="id1" style="padding-top:40px;padding-bottom:40px;text-align:center;margin-top:8px">Instalacja 1 usługi</h3>
-          <!-- <hr> - ta szara kreska -->
-          <hr>
-          <p>Tekst</p>
-          <!-- Zdjęcie -->
+          <h2 class="section-heading" id="dhcp" style="padding-top:70px;text-align:center">DHCP</h2>
+          <p><b>1.</b>Instalacja DHCP</p>
           <div class="banner">
-            <img src="files/folder/zdjecie-test.png" width="256" height="192" alt=""/>
+            <img src="files/dhcp/1.png" width="256" alt=""/>
           </div>
           <hr>
-          <!-- id zamień na nazwe usługi czy co tam chcesz (bez spacji), potem w linijce 94 przepisz to id i za numer (1,2,3,4) wstaw jakiś tekst -->
-          <h3 class="section-heading" id="id2" style="padding-top:40px;padding-bottom:40px;text-align:center;margin-top:8px">Konfiguracja 1 usługi</h3>
-          <hr>
-          <p>Tekst, <kbd>w kbd możesz dać polecenie cmd, albo jakąś lokalizację pliku</kbd></p>
+          <p><b>2.</b> Edycja pliku konfiguracyjnego, w którym określa się na którym interfejsie sieciowym będzie świadczona usługa DHCP.</p>
           <div class="banner">
-            <img src="files/folder/zdjecie-test.png" width="256" height="192" alt=""/>
-          </div>
-          <div class="banner">
-            <img src="files/folder/zdjecie-test.png" width="256" height="192" alt=""/>
+            <img src="files/dhcp/2.png" width="256" alt=""/>
           </div>
           <hr>
-          <p>Tekst, <kbd>znowu kbd</kbd></p>
+          <p><b>3.</b> W moim przypadku enp0s8, dla którego wcześniej przypisałem adres statyczny 192.168.17.6.</p>
           <div class="banner">
-            <img src="files/folder/zdjecie-test.png" width="256" height="192" alt=""/>
-          </div>
-          <p>Tekst, <b>tekst w b jest pogrubiony</b></p>
-          <hr>
-          <p>Tekst</p>
-          <div class="banner">
-            <img src="files/folder/zdjecie-test.png" width="256" height="192" alt=""/>
-          </div>
-
-          <hr>
-          <!-- Za id wpisujesz id jakie chcesz, tylko bez spacji, potem w linijce 94 przepisz to id i za numer (1,2,3,4) wstaw jakiś tekst -->
-          <h3 class="section-heading" id="id3" style="padding-top:40px;padding-bottom:40px;text-align:center;margin-top:8px">Instalacja 2 usługi</h3>
-          <!-- <hr> - ta szara kreska -->
-          <hr>
-          <p>Tekst</p>
-          <!-- Zdjęcie -->
-          <div class="banner">
-            <img src="files/folder/zdjecie-test.png" width="256" height="192" alt=""/>
+            <img src="files/dhcp/3.png" width="256" alt=""/>
           </div>
           <hr>
-          <!-- id zamień na nazwe usługi czy co tam chcesz (bez spacji), potem w linijce 94 przepisz to id i za numer (1,2,3,4) wstaw jakiś tekst -->
-          <h3 class="section-heading" id="id4" style="padding-top:40px;padding-bottom:40px;text-align:center;margin-top:8px">Konfiguracja 2 usługi</h3>
-          <hr>
-          <p>Tekst, <kbd>w kbd możesz dać polecenie cmd, albo jakąś lokalizację pliku</kbd></p>
+          <p><b>4.</b> Edycja drugiego pliku konfiguracyjnego</p>
           <div class="banner">
-            <img src="files/folder/zdjecie-test.png" width="256" height="192" alt=""/>
+            <img src="files/dhcp/4.png" width="256" alt=""/>
           </div>
+          <hr>
+          <p><b>5.</b> Konfiguracja</p>
+          <div class="banner">
+            <img src="files/dhcp/5.png" width="256" alt=""/>
+          </div>
+          <div class="banner">
+            <img src="files/dhcp/5-2.png" width="256" alt=""/>
+          </div>
+          <hr>
+          <p><b>6.</b> Polecenia DHCP</p>
+          <div class="banner">
+            <img src="files/dhcp/6.png" width="256" alt=""/>
+          </div>
+          <div class="banner">
+            <img src="files/dhcp/6-2.png" width="256" alt=""/>
+          </div>
+          <hr>
+          <p><b>7.</b> Konifguracja stacji roboczej:</p>
+          <div class="banner">
+            <img src="files/dhcp/7.png" width="256" alt=""/>
+          </div>
+          <hr>
+          <p><b>8.</b> Sprawdzenie jakie numery ip zostały przydzielone i na ile:</p>
+          <div class="banner">
+            <img src="files/dhcp/8.png" width="256" alt=""/>
+          </div>
+          <blockquote>Mi nie pokazuje bo mam je w grupie grupaIP w pod subnetem w pliku <kbd>/etc/dhcp/dhcpd.conf</kbd>, ale działa</blockquote>
 
         </div>
       </div>
